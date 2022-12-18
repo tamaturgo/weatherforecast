@@ -1,4 +1,3 @@
-
 def getDistance(data, u, t, v):
     bancoU = int(data["Umidade"])
     absValue = int(u) - bancoU
@@ -20,7 +19,7 @@ def getDistance(data, u, t, v):
 
 def app(umidade, temperatura, ventos):
 
-    with open("data.txt", "r") as file:
+    with open("data.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
     file.close()
 
@@ -54,7 +53,7 @@ def app(umidade, temperatura, ventos):
 
 
 def writeData(descricao, umidade, temperatura, ventos, resultado):
-    with open("data.txt", "a") as file:
-        file.write("Descrição:" + descricao + ";Umidade:" + umidade + ";Temperatura:" + temperatura + ";Ventos:" + ventos + ";Resultado:" + resultado + "\n")
+    with open("data.txt", "a", encoding="utf-8") as file:
+        file.write("Descrição:" + descricao + ";Umidade:" + umidade + ";Temperatura:" +
+                   temperatura + ";Ventos:" + ventos + ";Resultado:" + resultado + "\n")
     file.close()
-     

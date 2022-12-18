@@ -5,3 +5,7 @@ Descricao:Sol forte e ar seco;Umidade:38;Temperatura:35;Ventos:12;Saida:Ensolara
 Descricao:Clima agradável sem sol;Umidade:85;Temperatura:28;Ventos:8;Saida:Neblina
 Descricao:Chovendo muito;Umidade:90;Temperatura:23;Ventos:145;Clima:Furacao
 Descricao:Sol forte baixa umidade e altas temperaturas;Umidade:13;Temperatura:43;Ventos:23;Clima:Árido
+Descrição:Sol forte e ar seco;Umidade:34;Temperatura:32;Ventos:8;Resultado:Ensolarado
+Descrição:Sol forte baixa umidade e altas temperaturas;Umidade:12;Temperatura:12;Ventos:12;Resultado:Árido
+Descrição:Chovendo;Umidade:90;Temperatura:27;Ventos:32;Resultado:Chuvoso
+Descrição:Sol forte e ar seco;Umidade:32;Temperatura:32;Ventos:32;Resultado:Ensolarado
